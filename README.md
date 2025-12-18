@@ -103,6 +103,13 @@ You want to eventually see:
 incus exec monero-miner -- bash -lc \
 'curl -s http://127.0.0.1:18081/mining_status | egrep "\"active\"|\"threads_count\"|\"address\"|\"speed\"|\"status\""'
 ```
+or you can directly go though the container by :
+```
+incus shell monero-miner
+monerod status
+monerod mining_status
+```
+
 
 Once synced and mining started successfully, you should see:
 

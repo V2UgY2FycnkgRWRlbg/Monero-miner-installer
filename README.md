@@ -140,6 +140,8 @@ incus exec monero-miner -- sudo tail -n 200 /var/log/monero-provision.log
   * SHA256 hash verification of the downloaded tarball
 * RPC is not exposed outside the container unless you explicitly change configuration.
 
+If you looking to get the best anonymity possible while running a node you can follow this guide to set-up proxies : https://monero.fail/opsec
+
 ## Troubleshooting quick tips
 
 * If mining shows inactive:
